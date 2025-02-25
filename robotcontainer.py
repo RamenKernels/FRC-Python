@@ -18,9 +18,9 @@ class RobotContainer:
 
         self.chooser = wpilib.SendableChooser()
 
-        self._configureButtonBindings()
+        self._configure_button_bindings()
 
-    def _configureButtonBindings(self):
+    def _configure_button_bindings(self):
         self.swervesubsystem.setDefaultCommand(
             DriveCommand(
                 self.swervesubsystem,
